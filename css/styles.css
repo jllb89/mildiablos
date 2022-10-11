@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 6;
+}
+
+body {background-color: #B12331;}
+
+
+@font-face {
+    font-family: "titles";
+    src: url(../recursos/Oswald-Regular.ttf);
+    font-display: block;
+}
+
+@font-face {
+    font-family: "texts";
+    src: url(../recursos/LUCKY\ TYPEWRITER.ttf);
+    font-display: block;
+}
+
+h1 {
+    color: #B12331;
+    font-size: 30px;
+    font-family: "titles";
+    text-align: center;
+    letter-spacing: .6rem;
+    padding-bottom: 10rem;
+    }
+
+h2 {
+    color: #000000;
+    font-size: 24px;
+    font-family: "titles";
+    text-align: center;
+    letter-spacing: .6rem;
+    padding-bottom: 10rem;
+    }
+
+.navbar {
+    font-family: "titles";
+    color: #B12331;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    font-family: "texts";
+    padding-left: 10rem;
+    padding-right: 10rem;
+    color: #000000;
+}
+
+button {height:40px;
+    color:#B12331;
+    background-color: #000000;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "titles";
+    transition: all .5s;
+    border-style: solid;
+    border-color: #000000;}
+    
+button:hover {
+transform: scale(1.05);
+background-color: #000000;
+color: #ffffff;}
+
+.nopadding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
